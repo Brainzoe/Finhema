@@ -188,9 +188,9 @@ const Home = () => {
           </div>
 
           {/* Side-by-Side Layout */}
-          <div className="flex justify-around items-start space-x-8">
+          <div className="flex flex-col md:flex-row justify-around items-start space-y-8 md:space-y-0 md:space-x-8">
             {/* Left Column - Image with Feature Cards Below */}
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               {/* Main Image with Green Background */}
               <div className="bg-green-600 p-6 rounded-lg shadow-md mb-6">
                 <img src={conservativeProductImage} alt="Conservative Banking Solution Demo" className="w-full rounded-lg" />
@@ -214,7 +214,7 @@ const Home = () => {
             </div>
 
             {/* Right Column - Header and Chart Image */}
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               {/* Section Header */}
               <div className="text-center mb-8">
                 <h2 className="text-4xl font-bold text-green-700">Tailored Solutions for Conservative Investors</h2>
