@@ -28,7 +28,7 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto flex justify-between items-center px-4">
-        <h1 className="text-2xl font-semibold">Finhema</h1>
+        <h1 className="text-2xl font-semibold">FINMAZ</h1>
 
         {/* Hamburger Icon for Small Screens */}
         <div className="lg:hidden">

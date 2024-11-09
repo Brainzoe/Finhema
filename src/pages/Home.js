@@ -177,7 +177,7 @@ const Home = () => {
 
       <section id="Why-FINMAX" >
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-blue-700">WHY FINHEMA</h2>
+          <h2 className="text-4xl font-bold text-blue-700">WHY FINMAZ</h2>
           <p className="italic text-lg text-blue-500 mt-2">Designed to provide powerful, yet easy-to-use platform that can help manage financial operations more efficiently and effectively.</p>
         </div>
         <div className="bg-white-100 py-16 px-8 m-10 border border-gray-300 rounded-lg">
