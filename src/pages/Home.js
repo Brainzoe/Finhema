@@ -177,6 +177,61 @@ const Home = () => {
       </div>
 
 
+      <div>
+        {/* Conservative Banking Solution Section */}
+        <section id="conservative-banking" className="bg-gray-100 py-16 px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl font-bold text-green-700">Conservative Banking</h2>
+            <p className="italic text-lg text-gray-600 mt-2">
+              Focused on secure and stable banking solutions tailored to meet the needs of cautious investors.
+            </p>
+          </div>
+
+          {/* Side-by-Side Layout */}
+          <div className="flex justify-around items-start space-x-8">
+            {/* Left Column - Image with Feature Cards Below */}
+            <div className="w-1/2">
+              {/* Main Image with Green Background */}
+              <div className="bg-green-600 p-6 rounded-lg shadow-md mb-6">
+                <img src={conservativeProductImage} alt="Conservative Banking Solution Demo" className="w-full rounded-lg" />
+              </div>
+
+              {/* Solution Features */}
+              <div className="bg-white p-4 shadow-md rounded-lg mb-4 flex items-center space-x-4">
+                <div className="text-green-700 text-3xl">&#127970;</div> {/* Icon placeholder */}
+                <div>
+                  <h3 className="font-semibold text-xl">Secure Investments</h3>
+                  <p className="text-gray-600">Prioritize stability and security in investment solutions.</p>
+                </div>
+              </div>
+              <div className="bg-white p-4 shadow-md rounded-lg mb-4 flex items-center space-x-4">
+                <div className="text-green-700 text-3xl">&#128241;</div> {/* Icon placeholder */}
+                <div>
+                  <h3 className="font-semibold text-xl">Personalized Advice</h3>
+                  <p className="text-gray-600">Get tailored financial advice for conservative growth.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column - Header and Chart Image */}
+            <div className="w-1/2">
+              {/* Section Header */}
+              <div className="text-center mb-8">
+                <h2 className="text-4xl font-bold text-green-700">Tailored Solutions for Conservative Investors</h2>
+                <p className="italic text-lg text-gray-600 mt-2">
+                  Designed for those who prioritize security over high returns.
+                </p>
+              </div>
+
+              {/* Chart or Insights Image */}
+              <img src={conservativeChartImage} alt="Conservative Data and Insights" className="w-full rounded-lg shadow-lg" />
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
       <section id="Why-FINMAX" >
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-blue-700">WHY FINMAZ</h2>
@@ -232,58 +287,6 @@ const Home = () => {
         </div>
       </section>
 
-      <div>
-  {/* Conservative Banking Solution Section */}
-  <section id="conservative-banking" className="bg-gray-100 py-16 px-8">
-    <div className="text-center mb-8">
-      <h2 className="text-4xl font-bold text-green-700">Conservative Banking</h2>
-      <p className="italic text-lg text-gray-600 mt-2">
-        Focused on secure and stable banking solutions tailored to meet the needs of cautious investors.
-      </p>
-    </div>
-    
-    {/* Side-by-Side Layout */}
-    <div className="flex justify-around items-start space-x-8">
-      {/* Left Column - Image with Feature Cards Below */}
-      <div className="w-1/2">
-        {/* Main Image with Green Background */}
-        <div className="bg-green-600 p-6 rounded-lg shadow-md mb-6">
-          <img src={conservativeProductImage} alt="Conservative Banking Solution Demo" className="w-full rounded-lg" />
-        </div>
-
-        {/* Solution Features */}
-        <div className="bg-white p-4 shadow-md rounded-lg mb-4 flex items-center space-x-4">
-          <div className="text-green-700 text-3xl">&#127970;</div> {/* Icon placeholder */}
-          <div>
-            <h3 className="font-semibold text-xl">Secure Investments</h3>
-            <p className="text-gray-600">Prioritize stability and security in investment solutions.</p>
-          </div>
-        </div>
-        <div className="bg-white p-4 shadow-md rounded-lg mb-4 flex items-center space-x-4">
-          <div className="text-green-700 text-3xl">&#128241;</div> {/* Icon placeholder */}
-          <div>
-            <h3 className="font-semibold text-xl">Personalized Advice</h3>
-            <p className="text-gray-600">Get tailored financial advice for conservative growth.</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Right Column - Header and Chart Image */}
-      <div className="w-1/2">
-        {/* Section Header */}
-        <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-green-700">Tailored Solutions for Conservative Investors</h2>
-          <p className="italic text-lg text-gray-600 mt-2">
-            Designed for those who prioritize security over high returns.
-          </p>
-        </div>
-
-        {/* Chart or Insights Image */}
-        <img src={conservativeChartImage} alt="Conservative Data and Insights" className="w-full rounded-lg shadow-lg" />
-      </div>
-    </div>
-  </section>
-</div>
 
 
     </div>
