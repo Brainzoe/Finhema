@@ -7,6 +7,7 @@ import MobileBanking from './pages/MobileBanking'; // Import MobileBanking compo
 import TabBanking from './pages/TabBanking'; // Import TabBanking component
 import ContactUs from './pages/ContactUs'; // Import ContactUs component
 import Footer from './components/Footer'
+import ConservativeBanking from './pages/ConservativeBanking';
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
         <CoreBanking />
         <MobileBanking />
         <TabBanking />
+        <ConservativeBanking/>
         <ContactUs />
+        
       </main>
 
       <Footer /> {/* Include the Footer */}
