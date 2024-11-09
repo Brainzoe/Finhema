@@ -53,6 +53,7 @@ const Header = () => {
             <li><a href="#core-banking" className="hover:text-gray-200">Core Banking</a></li>
             <li><a href="#mobile-banking" className="hover:text-gray-200">Mobile Banking</a></li>
             <li><a href="#tab-banking" className="hover:text-gray-200">Tab Banking</a></li>
+            <li><a href="#tab-banking" className="hover:text-gray-200">Conservative Banking</a></li>
           </ul>
           
           {/* Contact Us Button with Icon */}
@@ -83,6 +84,7 @@ const Header = () => {
             <li><a href="#core-banking" className="hover:text-gray-600">Core Banking</a></li>
             <li><a href="#mobile-banking" className="hover:text-gray-600">Mobile Banking</a></li>
             <li><a href="#tab-banking" className="hover:text-gray-600">Tab Banking</a></li>
+            <li><a href="#tab-banking" className="hover:text-gray-600">Conservative Banking</a></li>
             <li>
               <a href="#contact-us" className="block bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center">
                 <FontAwesomeIcon icon={faUser} className="mr-2" /> Contact Us
